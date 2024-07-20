@@ -13,7 +13,8 @@
     <ImageView
         android:layout_width="121dp"
         android:layout_height="79dp"
-        android:src="@drawable/logo_appp" />
+        android:src="@drawable/logo_appp"
+        tools:ignore="ContentDescription" />
 
 
     <ProgressBar

@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
-            val intent = Intent(this@MainActivity, home_page::class.java)
+            val intent = Intent(this@MainActivity, sign_in_page::class.java)
             startActivity(intent)
             finish()
         }, 3000)

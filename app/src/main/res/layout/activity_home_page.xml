@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="#FEF0D7"
     android:padding="16dp"
-    tools:context=".home_page">
+    tools:context=".sign_in_page">
 
     <ImageView
         android:id="@+id/signup_illustration"
