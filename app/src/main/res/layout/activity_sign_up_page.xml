@@ -5,17 +5,64 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FDFDFE"
     tools:context=".sign_up_page">
-    <ScrollView
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/signup"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints">
-        <ImageView
-            android:layout_width="150sp"
-            android:layout_margin="5dp"
-            android:layout_height="150sp"
-            android:src="@drawable/logo_appp"/>
-    </ScrollView>
+        android:text="Log-in"
+        android:textSize="24sp"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="start"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="User Name"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log-in"
+        android:backgroundTint="#FC700E"
+        android:layout_marginTop="16dp"/>
+
 
 </LinearLayout>
