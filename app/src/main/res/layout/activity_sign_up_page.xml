@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDFDFE"
-    tools:context=".sign_up_page">
+    tools:context="com.example.meal_apk.sign_up_page">
 
 
     <ImageView

@@ -1,10 +1,11 @@
-package com.example.myapplication
+package com.example.meal_apk
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.example.myapplication.R
 
 class MainActivity : AppCompatActivity() {
 
