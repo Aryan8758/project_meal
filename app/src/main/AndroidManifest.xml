@@ -16,15 +16,7 @@
             android:name="com.example.meal_apk.HomePageActivity"
             android:exported="false" />
         <activity
-            android:name=".Login_page"
-            android:exported="false"
-            android:label="@string/title_activity_login_page"
-            android:theme="@style/Theme.MyApplication" />
-        <activity
             android:name="com.example.meal_apk.sign_up_page"
-            android:exported="false" />
-        <activity
-            android:name=".sing"
             android:exported="false" />
         <activity
             android:name="com.example.meal_apk.sign_in_page"

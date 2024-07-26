@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         app:srcCompat="@drawable/signup"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/sign_up_text"
@@ -37,11 +37,11 @@
         android:drawableStart="@drawable/baseline_person_24"
         android:drawablePadding="10dp"
         android:hint="User Name"
-        android:textStyle="bold"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="10dp"
-        tools:ignore="Autofill,HardcodedText" />
+        android:textStyle="bold"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck,VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/password"
@@ -54,15 +54,17 @@
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:padding="10dp"
-        tools:ignore="Autofill" />
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck,VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/continue_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log-in"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#FC700E"
-        android:layout_marginTop="16dp"/>
+        android:text="Log-in"
+        android:textColor="#263238"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize" />
 
 
 </LinearLayout>
